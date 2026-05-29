@@ -7,35 +7,65 @@
 
 .hero {
   text-align: center;
-  padding: 50px;
-  background: linear-gradient(135deg, #00a000, #004466);
+  padding: 40px;
+  background: linear-gradient(135deg, #00a000, #003344);
 }
 
 .hero-img {
   width: 320px;
-  max-width: 90%;
 }
 
-h1 {
-  font-size: 52px;
-  margin: 10px 0;
+.call-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #00ff66;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
 }
 
-.jails {
+.floating-call {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #00ff66;
+  color: black;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.intake, .calculator, .jails, .seo {
   padding: 40px;
   text-align: center;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 10px;
-  padding-top: 20px;
+form input, form textarea {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
 }
 
-.grid div {
+button {
+  padding: 10px 20px;
+  background: #00ff66;
+  border: none;
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.grid a {
   background: #111;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #222;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
 }
