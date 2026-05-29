@@ -1,0 +1,41 @@
+﻿body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b0f14;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #00a000, #004466);
+}
+
+.hero-img {
+  width: 320px;
+  max-width: 90%;
+}
+
+h1 {
+  font-size: 52px;
+  margin: 10px 0;
+}
+
+.jails {
+  padding: 40px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.grid div {
+  background: #111;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #222;
+}
